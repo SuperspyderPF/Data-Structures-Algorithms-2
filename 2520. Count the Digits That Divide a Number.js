@@ -1,0 +1,1 @@
+countDigits=n=>(""+n).split("").filter(s=>n%(+s)===0).length

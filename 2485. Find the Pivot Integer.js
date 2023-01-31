@@ -1,0 +1,1 @@
+pivotInteger=n=>{z=0,x=0;for(i=1;i<=n;i++){z+=i}for(j=1;j<=n;j++){x+=j;if(x===z-x+j){return j}}return -1}
